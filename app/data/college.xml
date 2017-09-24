@@ -1,1 +1,27 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item>
+        <title>Название колледжа:</title>
+        <content><![CDATA[
+<p>Колледж информатики и программирования при финансовом университете</p>
+]]></content>
+    </item>
+    <item>
+        <title>Адрес колледжа:</title>
+        <content><![CDATA[
+<p>Кронштадтский бульвар, 37Б (м. Водный стадион)</p>
+]]></content>
+    </item> 
+    <item>
+        <title>Группа:</title>
+        <content><![CDATA[
+<p>3ПКС-315</p>
+]]></content>
+    </item>
+    <item>
+        <title>Специальность:</title>
+        <content><![CDATA[
+<p>Специальность 09.02.03 Программирование в компьютерных системах</p>
+]]></content>
+    </item> 
+</root>
