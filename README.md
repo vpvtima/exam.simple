@@ -11,3 +11,5 @@
 8. изменить все файлы проекта exam.simple по-аналогии с simple
 ---
 шпаргалка по оформлению [markdown-файлов](http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-samymi-populyarnymi-tegami/)
+---
+спросить **что не понятно**
