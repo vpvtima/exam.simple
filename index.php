@@ -1,8 +1,8 @@
 <?php
 require_once  'app/layouts/_classes.php';
-$help->title = 'Главная страница';
-$help->description = 'Главная страница';
-$help->header();
+$main->title = 'Главная страница';
+$main->description = 'Главная страница';
+$main->header();
 ?>
 <body>
 
@@ -40,5 +40,5 @@ $help->header();
 
     <!-- Site footer -->
 <?php
-$help->footer();
+$main->footer();
 ?>

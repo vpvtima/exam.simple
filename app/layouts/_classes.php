@@ -1,6 +1,6 @@
 <?php
 
-require_once '../classes/Main.php';
-require_once '../classes/Help.php';
-$help = new Main();
+require_once $_SERVER['DOCUMENT_ROOT'].'/app/classes/Main.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/app/classes/Help.php';
+$main = new Main();
 ?>
