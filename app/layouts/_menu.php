@@ -1,11 +1,9 @@
 <h3 class="text-muted">Project name</h3>
 <nav>
-    <ul class="nav nav-justified">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Downloads</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+    <ul class="nav nav-pills pull-right">
+        <?php echo Html::menuLink('/','Home'); ?>
+        <?php echo Html::menuLink('/about.php','About'); ?>
+        <?php echo Html::menuLink('/college.php','College'); ?>
+        <?php echo Html::menuLink('/hobby.php','Hobby'); ?>
     </ul>
 </nav>

@@ -1,5 +1,8 @@
 <?php
-require_once  'app/layouts/_top.php';
+require_once  'app/layouts/_classes.php';
+$help->title = 'Главная страница';
+$help->description = 'Главная страница';
+$help->header();
 ?>
 <body>
 
@@ -7,11 +10,6 @@ require_once  'app/layouts/_top.php';
 
     <!-- The justified navigation menu is meant for single line per list item.
          Multiple lines will require custom code not provided by Bootstrap. -->
-    <div class="masthead">
-        <?php
-            require_once  'app/layouts/_menu.php';
-        ?>
-    </div>
 
     <!-- Jumbotron -->
     <div class="jumbotron">
@@ -42,5 +40,5 @@ require_once  'app/layouts/_top.php';
 
     <!-- Site footer -->
 <?php
-require_once 'app/layouts/_bottom.php';
+$help->footer();
 ?>

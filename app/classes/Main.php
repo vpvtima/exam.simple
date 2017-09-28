@@ -1,7 +1,7 @@
 <?php
 // аналог класса Page
 require_once 'Seo.php';
-class Page extends  Seo
+class Main extends  Seo
 {
     public function _construct()
     {
