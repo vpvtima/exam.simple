@@ -10,12 +10,15 @@ $main->header();
 
     <!-- The justified navigation menu is meant for single line per list item.
          Multiple lines will require custom code not provided by Bootstrap. -->
+    <?php
+        require_once 'app/layouts/_menu.php';
+    ?>
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+        <h1><?php $main->title; ?></h1>
+        <p class="lead"><?php $main->description; ?></p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Simple button</a></p>
     </div>
 
     <!-- Example row of columns -->
