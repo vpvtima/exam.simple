@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="<?php echo $this->description; ?>">
-    <meta name="author" content="<?php echo $this->author; ?>">
-    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title><?php echo $this->title; ?></title>
+    <title>Justified Nav Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/jscss/bootstrap.min.css" rel="stylesheet">
@@ -30,11 +31,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
 
 <div class="container">
 
         <div class="header clearfix">
             <?php require_once '_menu.php';?>
-            <h3 class="text-muted"><?php echo $this->projectName; ?></h3>
         </div>
