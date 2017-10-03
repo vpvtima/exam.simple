@@ -4,23 +4,11 @@ $main->title = 'Главная страница';
 $main->description = 'Главная страница';
 $main->header();
 ?>
-<body>
 
-<div class="container">
-
-    <!-- The justified navigation menu is meant for single line per list item.
-         Multiple lines will require custom code not provided by Bootstrap. -->
-    <?php
-        require_once 'app/layouts/_menu.php';
-    ?>
-
-    <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1><?php $main->title; ?></h1>
-        <p class="lead"><?php $main->description; ?></p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Simple button</a></p>
+        <h1><?php echo 'Главная страница';?></h1>
+        <p class="lead">Тестирование</p>
     </div>
-
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
